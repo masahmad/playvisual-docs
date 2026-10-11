@@ -33,6 +33,9 @@ theme:
     - content.code.copy
     - content.tooltips
 
+extra_javascript:
+  - assets/js/theme-sync.js
+
 plugins:
   - search
 

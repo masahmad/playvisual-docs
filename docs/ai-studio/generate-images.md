@@ -1,64 +1,87 @@
 # Generating Images
 
-AI Studio can generate images from text prompts (text-to-image) or modify existing images (image-to-image).
+---
+
+## Step 1 — Write a prompt
+
+In the **prompt box**, describe the scene you want to create. Be specific about subject, style, lighting and mood.
+
+### Prompt tips
+
+- Describe subject, style, setting and lighting: *"A modern open-plan office, warm natural light, wide angle"*
+- Mention the intended use: *"for a digital signage display, landscape orientation"*
+- Keep it focused — one clear scene works better than a list of requirements
+
+### Prompt history
+
+Previously used prompts are saved in a **Recent** dropdown below the prompt box. Click any entry to restore it.
+
+### Example prompts
+
+When the prompt box is empty, a rotating carousel of example prompts (by industry) appears. Click any example to use it as a starting point.
+
+### Enhance prompt
+
+Click the **wand icon** inside the prompt box. The AI rewrites and expands your prompt to add detail. Review the enhanced version — click **Use this** to accept or **Dismiss** to keep your original.
 
 ---
 
-## Text to image
+## Step 2 — Choose options
 
-1. Go to **Media Studio → AI Studio**
-2. Select **Text → Image** as the generation type
-3. Choose a **provider** from the dropdown
-4. Enter your **prompt** — describe the image you want
-5. Optionally set:
-   - **Quality** — Preview (fewer credits), Standard, High
-   - **Aspect ratio** — Landscape, Portrait, Square, Wide, etc.
-   - **Size** — pixel dimensions (where applicable for the chosen provider)
-6. Click **Generate**
+### Providers
 
-The result appears as a preview below the form. If you're happy with it, click **Save to Library** to add it to your client's Media Library.
+Separate dropdowns let you choose an **image provider** and a **video provider**. Only configured providers appear. Click the **ⓘ** button to see model info and limits for each.
 
----
+### Quality
 
-## Image to image
+Three icon buttons select the quality level:
 
-1. Select **Image → Image** as the generation type
-2. Upload or pick a reference image
-3. Enter a **prompt** describing the desired transformation
-4. Set quality and size as above
-5. Click **Generate**
+| Icon | Level | Description |
+|------|-------|-------------|
+| ⚡ | **Preview (Quick)** | Fast, low-cost — good for exploring ideas |
+| 🖼 | **Standard** | Balanced quality and cost |
+| ⭐ | **HD** | Highest quality — use when you know what you want |
+
+### Aspect ratio
+
+Five ratio buttons: **16:9** · **9:16** · **1:1** · **4:3** · **21:9**
+
+A small visual preview box shows the selected shape. For display screens, 16:9 is the most common choice.
 
 ---
 
-## Prompt tips
+## Step 3 — Optionally use a reference image
 
-**Be specific about subject and setting:**
-> "A modern open-plan office with natural light, professional atmosphere, wide angle, digital signage display on the wall"
+Expand the **Use product image** accordion to supply a reference image from your Media Library (or paste a URL).
 
-**Describe the visual style:**
-> "Flat illustration, bold colours, minimal, suitable for a retail signage display"
+Once an image is loaded, choose the mode:
 
-**Specify orientation when it matters:**
-> "Landscape orientation, 16:9 aspect ratio, horizontal composition"
+| Mode | What it does |
+|------|-------------|
+| **✏️ Transform** | Edits or modifies the reference image directly |
+| **💡 Inspire** | Uses it as a style reference, creates something new |
 
----
-
-## Enhancing your prompt
-
-Click **Enhance prompt** before generating. The AI rewrites and expands your prompt to add detail that often produces better results. You can review and edit the enhanced version before generating.
+You can also click **Generate Video from this image** to skip straight to video generation without generating a new scene image first.
 
 ---
 
-## Saving to the Media Library
+## Step 4 — Generate
 
-After generation, the preview is stored as a temporary **ai-preview** asset. Click **Save to Library** to promote it to a permanent asset in your Media Library. If you close AI Studio without saving, the preview is discarded.
+Click **Generate**. The result panel shows a spinner while the image is being created.
 
-!!! warning "Credits are consumed on generation"
-    Credits are deducted when you click Generate, regardless of whether you save the result.
+Once ready, the image appears in the result panel with these options:
+
+- **Save to Library** — saves the image as a permanent asset in your Media Library
+- **Animate** (or similar button) — proceed to [video generation](generate-videos.md) using this image
+- **Re-generate image** — generate again with the same prompt and settings
+- **Start over** — reset everything
+
+!!! note "Draft expiry"
+    Images expire after **24 hours** if not saved to the library.
 
 ---
 
 ## Further reading
 
-- [Credits & Usage](credits.md)
 - [Generating Videos](generate-videos.md)
+- [Credits & Usage](credits.md)
