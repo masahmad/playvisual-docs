@@ -1,0 +1,98 @@
+site_name: PlayVisual
+site_description: User Manual — for admins, moderators and display operators
+site_url: https://masahmad.github.io/playvisual-docs/
+repo_url: https://github.com/masahmad/playvisual-docs
+repo_name: playvisual-docs
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tooltips
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+
+  - Getting Started:
+    - What is PlayVisual?: getting-started/what-is-playvisual.md
+    - Logging In: getting-started/logging-in.md
+    - Dashboard Overview: getting-started/dashboard.md
+    - Roles & Permissions: getting-started/roles.md
+
+  - Admin Guide:
+    - Overview: admin-guide/index.md
+    - Managing Clients: admin-guide/clients.md
+    - Managing Users: admin-guide/users.md
+    - Managing Devices: admin-guide/devices.md
+    - Playlists & Templates: admin-guide/playlists.md
+    - Widget Configuration: admin-guide/widgets.md
+    - Google Sheets Integration: admin-guide/gsheet.md
+    - Settings: admin-guide/settings.md
+
+  - Media Library:
+    - Overview: media-library/index.md
+    - Uploading Media: media-library/uploading.md
+    - Organising & Tagging: media-library/organising.md
+    - Global Library: media-library/global-library.md
+    - Copy & Move Media: media-library/copy-move.md
+
+  - AI Studio:
+    - Overview: ai-studio/index.md
+    - Generating Images: ai-studio/generate-images.md
+    - Generating Videos: ai-studio/generate-videos.md
+    - Credits & Usage: ai-studio/credits.md
+
+  - Moderator Guide:
+    - Your Role: moderator-guide/index.md
+    - Managing Playlists: moderator-guide/playlists.md
+
+  - Player & Device Setup:
+    - Overview: player-setup/index.md
+    - Registering a Device: player-setup/registering.md
+    - Kiosk Setup (Pi / Ubuntu): player-setup/kiosk.md
+    - Troubleshooting: player-setup/troubleshooting.md
+
+  - Reference:
+    - Widget Catalogue: reference/widget-catalogue.md
+    - Glossary: reference/glossary.md
