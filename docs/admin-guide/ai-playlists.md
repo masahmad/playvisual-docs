@@ -28,6 +28,10 @@ Nothing is saved until you click Apply. **Generate Playlist** is disabled while 
 
 ---
 
+## Seeing the slides before you apply them
+
+Click **Show visual preview** above the result to play the generated slides in the real player, inside a screen frame. Use the slide buttons (**1**, **2**, …) to switch slides. After each change you make with **Change something**, or each **Undo**, the preview updates by itself. Nothing is saved: the preview shows the unapplied result, and the playlist stays as it was until you click **Apply**. Click **Hide** to close it, or **Reload** if it stops responding (for example, when the preview session expires).
+
 ## Changing the result before you apply it
 
 Under the preview, type a change into **Change something** and click **Update** (or press Ctrl+Enter). For example:
