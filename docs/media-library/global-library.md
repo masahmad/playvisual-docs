@@ -43,6 +43,16 @@ If a copy reference (`globalCopyId`) was set on the source document, it is autom
 
 ---
 
+## Organising with collections
+
+Global Library assets can be grouped into named collections — for example "Coffee Shop", "Retail Essentials", or "Corporate Backgrounds". This helps client Admins find relevant shared assets without needing to know specific tags.
+
+Only Superadmins can create and manage Global Library collections. All Admins can see and filter by them when the global media toggle is on.
+
+See [Collections — Global Library collections](collections.md#global-library-collections) for full details.
+
+---
+
 ## Storage
 
 Global Library storage is tracked separately from per-client storage. The **SA Dashboard** shows a breakdown including global totals.

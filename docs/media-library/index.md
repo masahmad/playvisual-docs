@@ -61,8 +61,22 @@ Click the **delete** (trash) icon on a media card.
 
 ---
 
+---
+
+## Processing media
+
+| Feature | Applies to | Where |
+|---------|-----------|-------|
+| [Video Transcoding](transcoding.md) | Videos | Transcode tab in detail panel |
+| [Image Resize / Rotate / Flip](image-processing.md) | Images | Tools tab in detail panel |
+
+---
+
 ## Further reading
 
+- [Collections](collections.md)
 - [Organising & Tagging](organising.md)
 - [Global Library](global-library.md)
 - [Copy & Move Media](copy-move.md)
+- [Video Transcoding](transcoding.md)
+- [Image Resize, Rotate & Flip](image-processing.md)

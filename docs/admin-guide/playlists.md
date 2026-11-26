@@ -76,6 +76,7 @@ Click the **delete** icon. Devices assigned to the deleted playlist will stop di
 
 ## Further reading
 
+- [Generating Playlists with AI](ai-playlists.md)
 - [Widget Configuration](widgets.md)
 - [Google Sheets Integration](gsheet.md)
 - [Managing Devices](devices.md)

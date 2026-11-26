@@ -99,6 +99,9 @@ Animated semi-circular gauge/dial.
 
 Live share price ticker with company logos from Logo.dev.
 
+!!! note
+    Prices come from a linked Google Sheet only. See [Google Sheets Integration](../admin-guide/gsheet.md). The same applies to the **Currency Ticker** and **Scrolling Table**.
+
 | Field | Type | Description |
 |-------|------|-------------|
 | Symbols | Text | Comma-separated ticker symbols (e.g. AAPL,MSFT) |
@@ -110,6 +113,9 @@ Live share price ticker with company logos from Logo.dev.
 ## News Ticker
 
 A scrolling horizontal text band for headlines or announcements.
+
+!!! warning "Deprecated"
+    News Ticker has been replaced by **Smart Ticker** and can no longer be added from the catalogue, presets or AI. Existing News Tickers keep playing.
 
 | Field | Type | Description |
 |-------|------|-------------|
@@ -149,6 +155,8 @@ A single static image.
 ## Video
 
 A single video file, auto-played and looped.
+
+Videos always play muted, because browsers block autoplay with sound. The video fills the widget without cropping, so a video whose shape differs from the widget shows bars at the sides or top and bottom.
 
 | Field | Type | Description |
 |-------|------|-------------|

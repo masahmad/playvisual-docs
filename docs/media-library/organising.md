@@ -24,6 +24,9 @@ Click any media card in the library to open the detail panel on the right side.
 
 Click **Save metadata** after making changes.
 
+!!! tip "Metadata drives AI playlist choices"
+    When you [generate a playlist with AI](../admin-guide/ai-playlists.md), backgrounds and images are picked from your library by matching the prompt against these fields. Items with **Usage type: Background** are preferred for slide backgrounds, and **Orientation** and **Text contrast** help it pick media that fits the screen and stays readable.
+
 ---
 
 ## Auto-tagging with AI
@@ -51,3 +54,9 @@ Filters combine — for example, filter by "Image" + tag "logo" to show only tag
 ## Searching
 
 The search box in the filter bar matches on filenames and tags. Partial matches are supported.
+
+---
+
+## Collections
+
+For higher-level grouping — by campaign, season or project — use [Collections](collections.md). A collection groups any number of media items together and can be filtered in the library or passed through to AI Studio when generating new assets.

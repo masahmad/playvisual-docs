@@ -69,6 +69,7 @@ nav:
     - Managing Users: admin-guide/users.md
     - Managing Devices: admin-guide/devices.md
     - Playlists & Templates: admin-guide/playlists.md
+    - Generating Playlists with AI: admin-guide/ai-playlists.md
     - Widget Configuration: admin-guide/widgets.md
     - Google Sheets Integration: admin-guide/gsheet.md
     - Settings: admin-guide/settings.md
@@ -77,8 +78,11 @@ nav:
     - Overview: media-library/index.md
     - Uploading Media: media-library/uploading.md
     - Organising & Tagging: media-library/organising.md
+    - Collections: media-library/collections.md
     - Global Library: media-library/global-library.md
     - Copy & Move Media: media-library/copy-move.md
+    - Video Transcoding: media-library/transcoding.md
+    - Image Resize, Rotate & Flip: media-library/image-processing.md
 
   - AI Studio:
     - Overview: ai-studio/index.md
